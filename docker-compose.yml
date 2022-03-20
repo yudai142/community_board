@@ -14,10 +14,12 @@ services:
   db:
     image: mysql:5.7
     volumes:
-      - ./tmp/db:/var/lib/mysql/data
+      - ./tmp/db:/var/lib/mysql
     ports:
       - 4306:3306
     environment:
-      MYSQL_PASSWORD: root
+      # MYSQL_USER: rott
+      # MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: password
 volumes:
   db-volume:
