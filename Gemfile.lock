@@ -157,6 +157,7 @@ GEM
     kaminari-core (1.2.0)
     kgio (2.11.3)
     libv8 (3.16.14.19-x86_64-darwin-18)
+    libv8 (3.16.14.19-x86_64-linux)
     listen (3.0.8)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
@@ -294,7 +295,7 @@ GEM
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
@@ -317,6 +318,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-18
+  x86_64-linux
 
 DEPENDENCIES
   active_hash
@@ -334,7 +336,7 @@ DEPENDENCIES
   factory_bot_rails
   faker (~> 2.8)
   fog-aws
-  impressionist
+  impressionist (~> 1.6.1)
   jbuilder (~> 2.5)
   jquery-rails
   kaminari
